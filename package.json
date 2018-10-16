@@ -1,0 +1,35 @@
+{
+  "name": "online-autocovariance",
+  "version": "0.0.1",
+  "description": "Autocovariance (online algorithm)",
+  "main": "index.js",
+  "dependencies": {
+    "online-lag": "0.0.3",
+    "online-mean": "^1.1.2"
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^4.9.1"
+  },
+  "scripts": {
+    "test": "tape test.js | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onlinestats/online-autocovariance.git"
+  },
+  "keywords": [
+    "variance",
+    "covariance",
+    "autocovariance",
+    "statistics",
+    "online",
+    "algorithm"
+  ],
+  "author": "Anton Zemlyansky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onlinestats/online-autocovariance/issues"
+  },
+  "homepage": "https://github.com/onlinestats/online-autocovariance#readme"
+}
